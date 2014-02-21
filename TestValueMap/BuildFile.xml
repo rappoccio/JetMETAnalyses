@@ -1,0 +1,11 @@
+<use   name="DataFormats/Math"/>
+<use   name="DataFormats/Common"/>
+<use   name="DataFormats/JetReco"/>
+<use   name="DataFormats/PatCandidates"/>
+<use   name="FWCore/Utilities"/>
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="FWCore/ServiceRegistry"/>
+<export>
+  <lib   name="1"/>
+</export>
