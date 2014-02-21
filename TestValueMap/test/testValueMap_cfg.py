@@ -9,7 +9,7 @@ process.source = cms.Source("PoolSource",
 )
 
 process.MessageLogger = cms.Service("MessageLogger")
-from Analysis.TestValueMap.testValueMap_cfi import testValueMap
+from JetMETAnalyses.TestValueMap.testValueMap_cfi import testValueMap
 process.ca8PFJetsCHSAna   = testValueMap.clone()
 
 ## process path
